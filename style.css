@@ -5,69 +5,88 @@
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 15px 20px;
-    background-color: #b32929;
-    color: wheat;
-}
-
-.header-left{
+    background-color: #C11926;
+    color: white;
     display: flex;
     align-items: center;
-    gap: 20px;
-}
-
-.header-titulo h1 {
-    margin: 0; 
-    font-size: 24px;
-    color: #ffffff;
-}
-
-.search-bar-card{
+    padding: 8px 100px;
+  }
+  
+  .logo img {
+    margin-right: 15px;
+    height: 35px;
+  }
+  
+  .barrapesquisa {
+    flex: 1;
     display: flex;
-    /* justify-content: flex-start; */
+  }
+  
+  .barrapesquisa input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;;
+    font-size: 14px;
+  }
+  
+  
+  .botoes {
+    display: flex;
     align-items: center;
-}
+    gap: 15px;
+  }
 
-.search-bar-card input[type="search"] {
-    padding: 8px 12px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    width: 300px;
-    margin: 0; 
-    display: block;
-}
+  .botoes .buttonCEP{
+    margin: 15px;
+    width: 8vw;
+    height: 40px;
+    background-color: #C11926;
+    border-color: #C11926;
+    color: white;
+    font-size: 18px;
+  }
 
-.search-bar p {
+  .botoes .buttonAcesso{
+    margin: 15px;
+    width: 8vw;
+    height: 40px;
+    background-color: #8b1c25;
+    border-color: #8b1c25;
+    color: white;
+    font-size: 18px;
+  }
+
+  .container{
+    display: flex;
+    background: #C11926;
+    align-items: center;
+  }
     
-}
-
-.search-bar button:hover {
-    background-color: #0056b3;
-}
-
-
-/* body{
+  .container .menu {
     display: flex;
-    place-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: aquamarine;
-}
+    align-items: center;
+    justify-content: center;
+    padding: 6px 100px;
+    gap: 18px;
+  }
+  
+  .container .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
 
-header{
-    width: 100%;
-    height: 20%;
-    position: fixed;
+  .container .extras {
     display: flex;
-    background-color: brown;
-}
-
-.titulo{
-    color: darkblue;
-
-} */
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 115px;
+  }
+  
+    .extras a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
